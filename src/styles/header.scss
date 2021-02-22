@@ -1,0 +1,132 @@
+.header-wrapper {
+  width: 80vw;
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 20px;
+    @include media(">=phone", "<lgphone") {
+      font-size: 20px;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 16px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 16px;
+    }
+  }
+  .heading-wrapper {
+    h1 {
+      font-size: 3.2rem;
+      text-align: center;
+      line-height: 32px;
+      @include media(">=phone", "<lgphone") {
+        font-size: 1.8rem;
+        line-height: 20px;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 1.5rem;
+        line-height: 10px;
+      }
+      @include media(">=tablet", "<desktop") {
+        font-size: 2.5rem;
+      }
+    }
+  }
+  p {
+    width: 50%;
+    text-align: center;
+    overflow: hidden;
+    line-height: 30px;
+    @include media(">=phone", "<lgphone") {
+      font-size: 12px;
+      width: 100%;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 12px;
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+
+  .connect-text {
+		text-decoration: underline;
+		font-weight: bolder;
+  }
+
+  .social-media-div {
+    font-size: 2em;
+  }
+  
+  .icon-button {
+		color: white;
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+		height: 2.6rem;
+		width: 2.6rem;
+    line-height: 2.6rem;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 10px;
+	}
+	
+	.mail div {
+    background-color: #f4b400;
+	}
+	.mail :hover  {
+		background-color:#C18100;
+		transition: 0.3s ease-in;
+	}
+	
+  .linkedin div {
+    background-color: #0e76a8;
+	}
+	.linkedin :hover {
+		background-color:#004375;
+		transition: 0.3s ease-in;
+  }
+  
+  .github div {
+    background-color: #333;
+	}
+	.github :hover {
+		background-color:#010101;
+		transition: 0.3s ease-in;
+  }
+  
+  .instagram div {
+    background-color: #c13584;
+	}
+	.instagram :hover {
+		background-color:#8E0251;
+		transition: 0.3s ease-in;
+  }
+
+  .youtube div {
+		background-color: #ff0000;
+  }
+	.youtube :hover {
+		background-color:#CC0000;
+		transition: 0.3s ease-in;
+  }
+  
+  /* Media Query */
+  @media (max-width: 768px) {
+    .social-media-div {
+      text-align: center;
+    }
+  }
+}
