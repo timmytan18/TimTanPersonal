@@ -1,7 +1,13 @@
 import React from "react"
+import GitHubCalendar from "react-github-calendar"
+import useWindowDimensions from "./functions/window"
 import data from "../yourdata"
 
 const Skills = () => {
+
+  const { height, width } = useWindowDimensions();
+  console.log(width)
+
   return (
     <div className="section">
       <div className="container">
@@ -15,6 +21,13 @@ const Skills = () => {
               </div>
             ))}
           </div>
+        </div>
+        <div className="github-container">
+          <GitHubCalendar
+            username="timmytan18"
+            blockSize={width/75}
+            fontSize={width/200+6}
+          />
         </div>
       </div>
     </div>
