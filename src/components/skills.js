@@ -33,9 +33,9 @@ const Skills = () => {
             fontSize={width/200+6}
           />
         </div>
-        <div className="extra-container">
+        {/* <div className="extra-container">
           <h2>Resume</h2>
-        </div>
+        </div> */}
       </div>
     </div>
   )

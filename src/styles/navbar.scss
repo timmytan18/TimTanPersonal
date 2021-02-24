@@ -6,6 +6,10 @@
   justify-content: space-between;
   .name {
     font-weight: 600;
+    @include media(">=phone", "<lgphone") {
+      font-size: 12px;
+      padding: 5px;
+    }
   }
   .links-wrapper {
     button {
@@ -21,6 +25,10 @@
       cursor: pointer;
       &:hover {
         opacity: 1;
+      }
+      @include media(">=phone", "<lgphone") {
+        font-size: 10px;
+        padding: 5px;
       }
     }
     .active {
