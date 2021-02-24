@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import Header from "../components/Header"
 import About from "../components/about"
 import Work from "../components/Work"
-import Skills from "../components/skills"
+import Experience from "../components/experience"
 import YouTube from "../components/YouTube"
 import Footer from "../components/Footer"
 
@@ -15,9 +15,9 @@ const IndexPage = () => (
     <SEO title="Tim Tan" />
     <Header></Header>
     <About></About>
+    <Experience></Experience>
     <Work></Work>
     <YouTube></YouTube>
-    <Skills></Skills>
     <Footer></Footer>
   </Layout>
 )

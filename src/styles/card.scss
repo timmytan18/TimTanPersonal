@@ -55,9 +55,19 @@
 
 .video-container {
   align-items: flex-start;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+
   h2 {
     font-size: 14px;
   }
+
   h3 {
     font-size: 11px;
     font-weight: 200;
@@ -69,7 +79,6 @@
 .card-video {
   height: 17.75em;
   background-size: contain;
-  // background-color: black;
   background-position: center;
   display: flex;
   flex-direction: column;

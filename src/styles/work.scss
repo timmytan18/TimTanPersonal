@@ -1,6 +1,7 @@
 .work-wrapper {
   width: 80vw;
-  margin-top: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,5 +20,17 @@
     @include media(">=tablet", "<desktop") {
       grid-template-columns: 1fr 1fr;
     }
+  }
+}
+
+.extra-container {
+  width: 80vw;
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-size: 17px;
   }
 }

@@ -40,8 +40,14 @@ const VideoCard = ({ heading, paragraph, imgUrl, views, date, projectLink }) => 
             </a>
           </div>
         </div>
-        <h2 className="header">{heading}</h2>
-        <h3 className="header">{numberWithCommas(views)} views • {months[dateObj.getMonth()]} {dateObj.getDate()}, {dateObj.getFullYear()}</h3>
+        <a
+          href={projectLink ? projectLink : "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className="header">{heading}</h2>
+          <h3 className="header">{numberWithCommas(views)} views • {months[dateObj.getMonth()]} {dateObj.getDate()}, {dateObj.getFullYear()}</h3>
+        </a>
       </div>
     )
   }

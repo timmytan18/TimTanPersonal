@@ -1,6 +1,6 @@
 import React from "react"
 
-// Skills Icons
+// Experience Icons
 import gtIcon from "./images/georgiatech.png"
 import amazonIcon from "./images/amazon.png"
 import amexIcon from "./images/americanexpress.png"
@@ -58,7 +58,7 @@ export default {
       para:
         "A mobile network for discovering restaurants with friends and sharing photos and reviews of delicious eats", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: require("./images/feast.jpg"),
+      imageSrc: require("./images/feast.png"),
       //Project URL - Add Your Project Url Here
       url: "https://www.myfeastapp.com/",
     },
@@ -103,11 +103,11 @@ export default {
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   // End YouTube Section -----------------
 
-  // Skills Section ---------------
+  // Experience Section ---------------
 
   //   Import Icons from the top and link it here
 
-  skills: [
+  experience: [
     {
       id: 1,
       img: gtIcon,
@@ -138,7 +138,7 @@ export default {
     },
   ],
 
-  // End Skills Section --------------------------
+  // End Experience Section --------------------------
 
   //   Contact Section --------------
 
