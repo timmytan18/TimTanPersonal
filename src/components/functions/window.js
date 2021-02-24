@@ -10,14 +10,13 @@ function getWindowDimensions() {
 
 export default function useWindowDimensions() {
 
-  let height;
-  let width;
+  let dim;
 
   if (typeof window !== `undefined`) {
-    height, width = getWindowDimensions();
+    dim = getWindowDimensions();
   }
 
-  const [windowDimensions, setWindowDimensions] = useState({ width, height });
+  const [windowDimensions, setWindowDimensions] = useState(dim);
 
   useEffect(() => {
     function handleResize() {
@@ -30,23 +29,3 @@ export default function useWindowDimensions() {
 
   return windowDimensions;
 }
-
-
-  // // Use hook to run the following code after page is loaded
-  // useEffect(() => {
-  //   /*
-  //     Debounce function for performance to check window resizing every 1000ms instead of of every ms. 
-  //     Upon resize, set new dimension to state.
-  //     Update 1000 value as needed. Note: 1000 = 1 second
-  //   */
-  //   const debouncedHandleResize = debounce(function handleResize() {
-  //     setWindowDimensions({
-  //       height: window.innerHeight,
-  //       width: window.innerWidth,
-  //     });
-  //   }, 1000);
-  //   // Listen for window resize and run the debounce resize function above.
-  //   window.addEventListener(`resize`, debouncedHandleResize)
-  //   // Remove the event listener if resizing stopped.
-  //   return () => window.removeEventListener(`resize`, debouncedHandleResize)
-  // }, [])

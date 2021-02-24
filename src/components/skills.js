@@ -1,15 +1,14 @@
 import React from "react"
+import GitHubCalendar from "react-github-calendar"
 import useWindowDimensions from "./functions/window"
 import data from "../yourdata"
 
-const GitHubCalendarLazy = React.lazy(() =>
-  import("react-github-calendar")
-)
-
 const Skills = () => {
 
-  const { height, width } = useWindowDimensions();
-  const isSSR = typeof window === "undefined";
+  let { height, width } = useWindowDimensions();
+  if (!width) {
+    width = 1000;
+  }
 
   return (
     <div className="section">
@@ -28,19 +27,15 @@ const Skills = () => {
           </div>
         </div>
         <div className="extra-container">
-        {!isSSR && (
-          <React.Suspense fallback={<div />}>
-            <GitHubCalendarLazy
-              username="timmytan18"
-              blockSize={width/75}
-              fontSize={width/200+6}
-            />
-          </React.Suspense>
-        )}
+          <GitHubCalendar
+            username="timmytan18"
+            blockSize={width/75}
+            fontSize={width/200+6}
+          />
         </div>
-        {/* <div className="extra-container">
+        <div className="extra-container">
           <h2>Resume</h2>
-        </div> */}
+        </div>
       </div>
     </div>
   )

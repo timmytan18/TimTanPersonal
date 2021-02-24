@@ -43,6 +43,9 @@
         margin: 5px;
         font-weight: 100;
         font-style: italic;
+        @include media(">=phone", "<lgphone") {
+          margin: 10px;
+        }
       }
       p {
         font-size: 14px;
