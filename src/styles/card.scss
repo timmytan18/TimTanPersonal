@@ -67,15 +67,50 @@
 }
 
 .card-video {
+  height: 17.75em;
   background-size: contain;
-  background-color: black;
+  // background-color: black;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-content: center;
+  @include media(">=phone", "<lgphone") {
+    height: 10.6em;
+  }
+  @include media(">=lgphone", "<tablet") {
+    height: 15.2em;
+  }
+  @include media(">=tablet", "<desktop") {
+    height: 10.68em;
+  }
+  @media (min-width:831px) {
+    height: 10em;
+  }
+  @media (min-width:1025px) {
+    height: 11.75em;
+  }
+  @media (min-width:1281px) {
+    height: 13.25em;
+  }
+  @media (min-width:1441px) {
+    height: 15em;
+  }
+  @media (min-width:1580px) {
+    height: 17.75em;
+  }
+
+  -o-transition:background-color 0.4s ease-in;
+  -ms-transition:background-color 0.4s ease-in;
+  -moz-transition:background-color 0.4s ease-in;
+  -webkit-transition:background-color 0.4s ease-in;
+  transition:background-color 0.5s ease-in;
 
   .content {
     padding: 25px;
   }
+}
+
+.card-video:hover {
+  background-color: black;
 }
