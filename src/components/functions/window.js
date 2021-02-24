@@ -10,7 +10,7 @@ function getWindowDimensions() {
 
 export default function useWindowDimensions() {
 
-  let dim;
+  let dim = { width: 1000, height: 1000 };
 
   if (typeof window !== `undefined`) {
     dim = getWindowDimensions();

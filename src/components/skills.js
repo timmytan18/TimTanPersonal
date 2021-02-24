@@ -6,9 +6,6 @@ import data from "../yourdata"
 const Skills = () => {
 
   let { height, width } = useWindowDimensions();
-  if (!width) {
-    width = 1000;
-  }
 
   return (
     <div className="section">
