@@ -1,16 +1,10 @@
-// Skills Icons
-import htmlIcon from "./images/html.svg"
-import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
-import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+import React from "react"
 
-// Social Icon
-import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
+// Skills Icons
+import gtIcon from "./images/georgiatech.png"
+import amazonIcon from "./images/amazon.png"
+import amexIcon from "./images/americanexpress.png"
+import thrustIcon from "./images/thrustinteractive.png"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -60,69 +54,43 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "Feast", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "A mobile network for discovering restaurants with friends and sharing photos and reviews of delicious eats", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: require("./images/feast.jpg"),
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://www.myfeastapp.com/",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Intelliflect", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "A home assistant smart mirror prototype that listens for voice commands to display relevant visual data, including local weather information, YouTube videos, and calendar events", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: require("./images/intelliflect.jpg"),
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://rb.gy/bdkamq",
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Coffee Chat", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "A platform aimed at connecting college students through 1:1 video calls, providing introductions using individuals' goals and interests", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: require("./images/coffeechat.jpg"),
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Space Traders", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "A space travel and exploration strategy web game created as a group project", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: require("./images/spacetraders.png"),
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Five", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      id: 6, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Six", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://spacetraders2340.herokuapp.com/",
     },
   ],
 
@@ -142,39 +110,31 @@ export default {
   skills: [
     {
       id: 1,
-      img: htmlIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: gtIcon,
+      title: "Georgia Institute of Technology",
+      subtitle: "B.S. in Computer Science | 2018-2022",
+      para: "Concentration in Artifical Intelligence and Human-Computer Interaction",
     },
     {
       id: 2,
-      img: cssIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: amazonIcon,
+      title: "Amazon",
+      subtitle: "Incoming Software Development Intern",
+      para: "",
     },
     {
       id: 3,
-      img: jsIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: amexIcon,
+      title: "American Express",
+      subtitle: "Software Engineering Intern",
+      para: "",
     },
     {
       id: 4,
-      img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      id: 5,
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      id: 6,
-      img: codeIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: thrustIcon,
+      title: "Thrust Interactive",
+      subtitle: "Mobile Development Intern",
+      para: "",
     },
   ],
 
@@ -182,23 +142,7 @@ export default {
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
-  social: [
-    // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
-    },
-  ],
+  contactSubHeading: "I hope to meet and work with you!",
 
   // End Contact Section ---------------
 }

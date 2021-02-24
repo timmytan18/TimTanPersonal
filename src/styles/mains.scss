@@ -38,6 +38,23 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  h1 {
+    font-size: 3rem;
+    line-height: 20px;
+    text-align: center;
+    @include media(">=phone", "<lgphone") {
+      font-size: 2rem;
+      line-height: 50px;
+    }
+    @include media(">=lgphone", "<tablet") {
+      line-height: 20px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 2.7rem;
+      line-height: 20px;
+    }
+  }
 }
 
 .primary-btn {

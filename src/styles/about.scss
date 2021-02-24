@@ -26,11 +26,9 @@
     }
 
     h1 {
-      font-size: 3rem;
-      line-height: 20px;
-      padding-bottom: 15px;
       @include media(">=tablet", "<desktop") {
-        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 5px;
       }
     }
     p {

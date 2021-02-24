@@ -24,7 +24,7 @@
       text-align: center;
       line-height: 32px;
       @include media(">=phone", "<lgphone") {
-        font-size: 1.8rem;
+        font-size: 2.3rem;
         line-height: 20px;
       }
       @include media(">=lgphone", "<tablet") {
@@ -32,7 +32,7 @@
         line-height: 10px;
       }
       @include media(">=tablet", "<desktop") {
-        font-size: 2.5rem;
+        font-size: 3rem;
       }
     }
   }
@@ -42,22 +42,21 @@
     overflow: hidden;
     line-height: 30px;
     @include media(">=phone", "<lgphone") {
-      font-size: 12px;
+      font-size: 14px;
       width: 100%;
     }
     @include media(">=lgphone", "<tablet") {
-      font-size: 12px;
+      font-size: 16px;
       width: 100%;
     }
     @include media(">=tablet", "<desktop") {
-      font-size: 14px;
+      font-size: 16px;
       width: 100%;
     }
   }
 
   .connect-text {
 		text-decoration: underline;
-		font-weight: bolder;
   }
 
   .social-media-div {
