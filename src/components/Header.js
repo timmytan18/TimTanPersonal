@@ -1,8 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import ReactPlayer from 'react-player'
 import Connect from "./atoms/Connect"
-import animoji from "../images/timanimoji.mp4"
 import data from "../yourdata"
 
 const Header = () => {
@@ -18,16 +16,7 @@ const Header = () => {
               </span>
 						</h2>
             <div className="animoji-container">
-              {/* <img src={require('../images/timanimoji.gif')} alt="loading..." /> */}
-              <ReactPlayer
-                className='react-player'
-                url= {animoji}
-                width='100%'
-                height='100%'
-                controls={false}
-                loop={true}
-                muted={true}
-                />
+              <img src={require('../images/timanimoji.gif')} alt="loading..." />
             </div>
 					</Fade>
 					<Fade bottom cascade>
