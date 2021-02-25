@@ -93,7 +93,7 @@ export default {
       //Project Image - Add Your Project Image Here
       imageSrc: require("./images/coffeechat.jpg"),
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "http://coffechat.io/",
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅

@@ -71,10 +71,7 @@
       }
       p {
         line-height: 20px;
-        padding-left: 10px;
-        @include media(">=phone", "<lgphone") {
-          padding-left: 15px;
-        }
+        padding-left: 15px;
       }
     }
 
