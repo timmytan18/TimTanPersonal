@@ -19,6 +19,21 @@
       font-size: 28px;
     }
   }
+
+  .animoji-container {
+    width: 150px;
+    height: 150px;
+    img {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+    }
+    .react-player {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
   .heading-wrapper {
     h1 {
       font-size: 3.2rem;
