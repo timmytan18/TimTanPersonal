@@ -23,7 +23,7 @@
       grid-template-columns: 1fr 1fr;
       margin-top: 30px;
     }
-    .skill {
+    .experience {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -33,6 +33,10 @@
         width: 4rem;
         border-radius: 2rem;
         object-fit: cover;
+        @include media(">=phone", "<lgphone") {
+          height: 3.8rem;
+          width: 3.8rem;
+        }
       }
       h3 {
         line-height: 20px;

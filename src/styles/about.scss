@@ -27,6 +27,9 @@
     }
 
     h1 {
+      @include media(">=phone", "<lgphone") {
+        padding-top: 5px;
+      }
       @include media(">=tablet", "<desktop") {
         padding-top: 10px;
         padding-bottom: 5px;

@@ -35,7 +35,7 @@ const Work = () => {
           <GitHubCalendar
             username="timmytan18"
             blockSize={width / 75}
-            fontSize={width / 200 + 6}
+            fontSize={width / 200 + 5}
           />
         </div>
         {/* <div className="extra-container">

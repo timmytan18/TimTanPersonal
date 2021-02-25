@@ -9,12 +9,12 @@ const Experience = () => {
         <div className="experience-container">
           <h1>Education & Experience</h1>
           <div className="experience-grid">
-            {data.experience.map(skill => (
-              <div className="skill" key={skill.id}>
-                <img src={skill.img} alt="css"></img>
-                <h3>{skill.title}</h3>
-                <h4>{skill.subtitle}</h4>
-                <p>{skill.para}</p>
+            {data.experience.map(experience => (
+              <div className="experience" key={experience.id}>
+                <img src={experience.img} alt="css"></img>
+                <h3>{experience.title}</h3>
+                <h4>{experience.subtitle}</h4>
+                <p>{experience.para}</p>
               </div>
             ))}
           </div>

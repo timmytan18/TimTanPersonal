@@ -6,6 +6,19 @@ import amazonIcon from "./images/amazon.png"
 import amexIcon from "./images/americanexpress.png"
 import thrustIcon from "./images/thrustinteractive.png"
 
+// Skills Icons
+import pythonIcon from "./images/python.png"
+import javascriptIcon from "./images/javascript.png"
+import javaIcon from "./images/java.png"
+import cssIcon from "./images/css.png"
+import reactIcon from "./images/react.png"
+import reactNativeIcon from "./images/reactnative.png"
+import awsIcon from "./images/aws.png"
+import rasaIcon from "./images/rasa.svg"
+import mandarinIcon from "./images/mandarin.png"
+import sketchIcon from "./images/sketch.png"
+import finalCutIcon from "./images/finalcut.png"
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -139,6 +152,82 @@ export default {
   ],
 
   // End Experience Section --------------------------
+
+  // Skills Section ---------------
+
+  skills: {
+
+    languages: [
+      {
+        id: 1,
+        img: pythonIcon,
+        title: "Python",
+      },
+      {
+        id: 2,
+        img: javascriptIcon,
+        title: "Javascript",
+      },
+      {
+        id: 3,
+        img: javaIcon,
+        title: "Java",
+      },
+      {
+        id: 4,
+        img: cssIcon,
+        title: "HTML / CSS",
+      },
+    ],
+
+    technologies: [
+      {
+        id: 1,
+        img: reactIcon,
+        title: "React",
+      },
+      {
+        id: 2,
+        img: reactNativeIcon,
+        title: "React Native",
+      },
+      {
+        id: 3,
+        img: awsIcon,
+        title: "AWS",
+      },
+      {
+        id: 4,
+        img: rasaIcon,
+        title: "Rasa",
+      },
+    ],
+
+    other: [
+      {
+        id: 1,
+        img: mandarinIcon,
+        title: "Mandarin",
+      },
+      {
+        id: 2,
+        img: sketchIcon,
+        title: "Sketch",
+      },
+      {
+        id: 3,
+        img: finalCutIcon,
+        title: "Final Cut Pro",
+      },
+      {
+        id: 4,
+        img: null,
+        title: "",
+      },
+    ],
+  },
+
+  // End Skills Section --------------------------
 
   //   Contact Section --------------
 
