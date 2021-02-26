@@ -90,7 +90,7 @@ export default {
       id: 3, //DO NOT CHANGE THIS (Please)😅
       title: "Coffee Chat", //Project Title - Add Your Project Title Here
       para:
-        "A platform aimed at connecting college students through 1:1 video calls, providing introductions using individuals' goals and interests", // Add Your Service Type Here
+        "A GTPM project aimed at connecting college students through 1:1 video calls, providing introductions using individuals' goals and interests", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc: require("./images/coffeechat.jpg"),
       //Project URL - Add Your Project Url Here
