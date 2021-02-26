@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faLinkedinIn, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faLinkedinIn, faGithub, faYoutube, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import data from "../../yourdata"
 
@@ -23,6 +23,9 @@ const Connect = ({ text }) => {
         <a href={data.socialMedia.instagram} class="instagram" target="_blank">
           <div class="icon-button"><FontAwesomeIcon icon={faInstagram} color="white" /></div>
         </a>
+        {/* <a href={data.socialMedia.twitter} class="twitter" target="_blank">
+          <div class="icon-button"><FontAwesomeIcon icon={faTwitter} color="white" /></div>
+        </a> */}
         <a href={data.socialMedia.youtube} class="youtube" target="_blank">
           <div class="icon-button"><FontAwesomeIcon icon={faYoutube} color="white" /></div>
         </a>

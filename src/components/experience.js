@@ -13,8 +13,8 @@ const Experience = () => {
               <div className="experience" key={experience.id}>
                 <img src={experience.img} alt="css"></img>
                 <h3>{experience.title}</h3>
-                <h4>{experience.subtitle}</h4>
-                <p>{experience.para}</p>
+                <h4>{experience.subtitle}</h4>                
+                {experience.para}
               </div>
             ))}
           </div>

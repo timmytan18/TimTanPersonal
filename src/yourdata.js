@@ -45,6 +45,7 @@ export default {
     linkedin: 'https://www.linkedin.com/in/timtan1/',
     instagram: 'https://www.instagram.com/tim0_otan/',
     github: 'https://github.com/timmytan18',
+    twitter: 'https://www.twitter.com/timmytan18',
     youtube: 'https://www.youtube.com/timtan1',
     email: 'timmytan18@gmail.com'
   },
@@ -53,11 +54,11 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "I’m currently a junior at Georgia Tech, majoring in Computer Science. I am passionate about using the tools and knowledge I have to create and work on projects that will improve the lives of others.",
+    "I’m currently a junior at Georgia Tech, majoring in Computer Science. I enjoy designing and building full stack and mobile apps, and I am passionate about using the tools and knowledge I have to create and work on products that will improve the lives of others.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "As I have a strong interest in software and tech entrepreneurship, I'm currently trying to learn as much as I can about startups (aka watching a ton of YC videos and listening on Clubhouse). I aspire to one day create and grow my own startup in the social good space or one that will allow for a tangible impact on many people.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "Even though I’m quite technical, I also love storytelling and all things visual. I'm definitely still a beginner designer and filmmaker, but I hope use my skills to tell the stories of my life and others. Thanks for checking out my page! :)",
   aboutImage:
     require("./images/profilefull.jpg"),
 
@@ -112,8 +113,6 @@ export default {
   //   YouTube Section --------------------------
 
   youtubeHeading: "YouTube",
-  youtubePara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   // End YouTube Section -----------------
 
   // Experience Section ---------------
@@ -126,28 +125,30 @@ export default {
       img: gtIcon,
       title: "Georgia Institute of Technology",
       subtitle: "B.S. in Computer Science | 2018-2022",
-      para: "Concentration in Artifical Intelligence and Human-Computer Interaction",
+      para: <p>Concentration in Artifical Intelligence and Human-Computer Interaction{"\n"}</p>,
     },
     {
       id: 2,
       img: amazonIcon,
       title: "Amazon",
-      subtitle: "Incoming Software Development Intern",
-      para: "",
+      subtitle: "Incoming Software Development Intern | Summer 2021",
+      para: <p>I'm super excited to start!</p>,
     },
     {
       id: 3,
       img: amexIcon,
       title: "American Express",
-      subtitle: "Software Engineering Intern",
-      para: "",
+      subtitle: "Software Engineering Intern | Summer 2020",
+      para: <p>I created an AI chat bot for (COVID) crisis relief using Rasa to be integrated in the AMEX mobile app. By analyzing current chat data, my partner and I automated 63% of crisis relief customer service conversations from June 2020.</p>,
     },
     {
       id: 4,
       img: thrustIcon,
       title: "Thrust Interactive",
-      subtitle: "Mobile Development Intern",
-      para: "",
+      subtitle: "Mobile Development Intern | Summer 2019",
+      para: <p>I worked on front end development with React Native for multiple client iOS and Android apps including <a href="https://playfanstable.com/" target="_blank">
+        FanStable
+      </a> and a vocabulary learning app for children with ASD.</p>,
     },
   ],
 
