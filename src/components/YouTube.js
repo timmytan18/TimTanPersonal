@@ -3,8 +3,8 @@ import VideoCard from "./atoms/VideoCard"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
-const CHANNEL_ID = process.env.REACT_APP_YOUTUBE_CHANNEL_ID;
-const API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
+const CHANNEL_ID = process.env.GATSBY_YOUTUBE_CHANNEL_ID;
+const API_KEY = process.env.GATSBY_YOUTUBE_API_KEY;
 const videoIds = ['zSEE12SZduw', 'zGruUTOPVck', 'lfwIlKPllvg', '6RWbw_-vNE0'];
 
 function numberWithCommas(x) {
@@ -27,9 +27,13 @@ const YouTube = () => {
       let vidRes = await fetch(videoUrl);
       vidRes = await vidRes.json();
       console.log(vidRes)
-
-      setProfile(res.items[0])
-      setVideos(vidRes.items)
+      
+      if (res.items) {
+        setProfile(res.items[0])
+      }
+      if (vidRes.items) {
+        setVideos(vidRes.items)
+      }
     }
     fetchVideos()
   }, [])
