@@ -1,6 +1,6 @@
 import React from "react"
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Card = ({ heading, subheading, paragraph, imgUrl, projectLink }) => {
   if (!heading) {
     return (
       <div
@@ -26,7 +26,8 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
         }}
       >
         <div className="content">
-          <h1 className="header">{heading}</h1>
+          <h2 className="header" style={{ margin: subheading ? 0 : 10 }}>{heading}</h2>
+          {subheading && <h3 className="header">{subheading}</h3>}
           <p className="text">{paragraph}</p>
           <a
             href={projectLink ? projectLink : "#"}

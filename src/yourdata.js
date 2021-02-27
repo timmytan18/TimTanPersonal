@@ -69,6 +69,7 @@ export default {
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
       title: "Feast", //Project Title - Add Your Project Title Here
+      subtitle: "In development",
       para:
         "A mobile network for discovering restaurants with friends and sharing photos and reviews of delicious eats", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -89,6 +90,7 @@ export default {
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
       title: "Coffee Chat", //Project Title - Add Your Project Title Here
+      subtitle: "In development",
       para:
         "A GTPM project aimed at connecting college students through 1:1 video calls, providing introductions using individuals' goals and interests", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here

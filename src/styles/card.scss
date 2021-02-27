@@ -9,6 +9,14 @@
   background-repeat: no-repeat;
   background-position: center;
 
+  h3 {
+    font-size: 11px;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+    margin: 7px;
+  }
+
   .content {
     font-family: "Open Sans";
     text-align: center;
@@ -22,7 +30,7 @@
     transform: translate(0, 20px);
     cursor: pointer;
     
-    h1 {
+    h2 {
       font-size: 14px;
       color: white;
     }

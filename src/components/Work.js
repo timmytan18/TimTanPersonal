@@ -23,6 +23,7 @@ const Work = () => {
                 <Card
                   key={project.id}
                   heading={project.title}
+                  subheading={project.subtitle}
                   paragraph={project.para}
                   imgUrl={project.imageSrc}
                   projectLink={project.url}
