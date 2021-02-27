@@ -139,7 +139,7 @@ export default {
       img: amexIcon,
       title: "American Express",
       subtitle: "Software Engineering Intern | Summer 2020",
-      para: <p>I created an AI chat bot for (COVID) crisis relief using Rasa to be integrated in the AMEX mobile app. By analyzing current chat data, my partner and I automated 63% of crisis relief customer service conversations from June 2020.</p>,
+      para: <p>I created an AI chat bot for (COVID) crisis relief using Rasa to be integrated in the AMEX mobile app. By analyzing current chat data, my teammate and I automated 63% of crisis relief customer service conversations from June 2020.</p>,
     },
     {
       id: 4,
