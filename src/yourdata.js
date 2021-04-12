@@ -75,7 +75,7 @@ export default {
       //Project Image - Add Your Project Image Here
       imageSrc: require("./images/feast.png"),
       //Project URL - Add Your Project Url Here
-      url: "https://www.myfeastapp.com/",
+      url: "https://www.feastapp.io/",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
