@@ -56,9 +56,9 @@ export default {
   aboutParaOne:
     "I’m currently a junior at Georgia Tech, majoring in Computer Science. I enjoy designing and building full stack and mobile apps, and I am passionate about using the tools and knowledge I have to create and work on products that will improve the lives of others.",
   aboutParaTwo:
-    "As I have a strong interest in software and tech entrepreneurship, I'm currently trying to learn as much as I can about startups (aka watching a ton of YC videos and listening to Clubhouse). I aspire to one day create and grow my own startup in the social good space or one that will allow for a tangible impact on many people.",
+    "As I have a strong interest in software and tech entrepreneurship, I'm currently trying to learn as much as I can about startups, aka watching a ton of YC videos. I aspire to one day create and grow my own startup in the social good space or one that will allow for a tangible impact on many people.",
   aboutParaThree:
-    "Even though I’m quite technical, I also love storytelling and all things visual. I'm definitely still a beginner designer and filmmaker, but I hope to use my skills to tell the stories of my life and others. Thanks for checking out my page! :)",
+    "Even though I’m quite technical, I also love storytelling and all things visual. I'm definitely still a beginner designer and filmmaker, but I hope to use my skills to tell the stories of my life and others. Be sure to watch out for new videos on my YouTube channel! Thanks for checking out my page :)",
   aboutImage:
     require("./images/profilefull.jpg"),
 
@@ -89,17 +89,6 @@ export default {
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Coffee Chat", //Project Title - Add Your Project Title Here
-      subtitle: "In development",
-      para:
-        "A GTPM project aimed at connecting college students through 1:1 video calls, providing introductions using individuals' goals and interests", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc: require("./images/coffeechat.jpg"),
-      //Project URL - Add Your Project Url Here
-      url: "http://coffechat.io/",
-    },
-    {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
       title: "Space Traders", //Project Title - Add Your Project Title Here
       para:
         "A space travel and exploration strategy web game created as a group project", // Add Your Service Type Here
