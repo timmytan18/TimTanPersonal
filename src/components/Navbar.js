@@ -11,7 +11,10 @@ const Navbar = () => {
             className="name"
             tabIndex={0}
           >
-            {'< Tim Tan />'}
+            {/* {'< Tim Tan />'} */}
+            <span class="grey-color"> &lt;</span>
+            <span className="logo-name">Tim Tan</span>
+            <span class="grey-color">/&gt;</span>
           </div>
           <div className="links-wrapper">
             <button onClick={() => scrollTo("#about")}>About</button>

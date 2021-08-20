@@ -14,7 +14,7 @@ import cssIcon from "./images/css.png"
 import reactIcon from "./images/react.png"
 import reactNativeIcon from "./images/reactnative.png"
 import awsIcon from "./images/aws.png"
-import rasaIcon from "./images/rasa.svg"
+import androidIcon from "./images/android.png"
 import mandarinIcon from "./images/mandarin.png"
 import sketchIcon from "./images/sketch.png"
 import finalCutIcon from "./images/finalcut.png"
@@ -54,7 +54,7 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "I’m currently a junior at Georgia Tech, majoring in Computer Science. I enjoy designing and building full stack and mobile apps, and I am passionate about using the tools and knowledge I have to create and work on products that will improve the lives of others.",
+    "I’m currently a senior at Georgia Tech, majoring in Computer Science. I enjoy designing and building full stack and mobile apps, and I am passionate about using the tools and knowledge I have to create and work on products that will improve the lives of others.",
   aboutParaTwo:
     "As I have a strong interest in software and tech entrepreneurship, I'm currently trying to learn as much as I can about startups, aka watching a ton of YC videos. I aspire to one day create and grow my own startup in the social good space or one that will allow for a tangible impact on many people.",
   aboutParaThree:
@@ -116,14 +116,14 @@ export default {
       img: gtIcon,
       title: "Georgia Institute of Technology",
       subtitle: "B.S. in Computer Science | 2018-2022",
-      para: <p>Concentration in Artifical Intelligence and Human-Computer Interaction{"\n"}</p>,
+      para: <p>Concentration in Media and Human-Computer Interaction{"\n"}</p>,
     },
     {
       id: 2,
       img: amazonIcon,
       title: "Amazon",
-      subtitle: "Incoming Software Development Intern | Summer 2021",
-      para: <p>I'm super excited to start!</p>,
+      subtitle: "Software Development Intern | Summer 2021",
+      para: <p>I established the foundation for millions of Fire TV users to block unwanted content in child profiles, creating the UI/UX and implementing the Android front end using Kotlin and Java with internal back end API services.</p>,
     },
     {
       id: 3,
@@ -163,7 +163,7 @@ export default {
       {
         id: 3,
         img: javaIcon,
-        title: "Java",
+        title: "Java / Kotlin",
       },
       {
         id: 4,
@@ -190,8 +190,8 @@ export default {
       },
       {
         id: 4,
-        img: rasaIcon,
-        title: "Rasa",
+        img: androidIcon,
+        title: "Android",
       },
     ],
 
@@ -211,11 +211,11 @@ export default {
         img: finalCutIcon,
         title: "Final Cut Pro",
       },
-      {
-        id: 4,
-        img: null,
-        title: "",
-      },
+      // {
+      //   id: 4,
+      //   img: null,
+      //   title: "",
+      // },
     ],
   },
 

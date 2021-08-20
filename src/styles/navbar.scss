@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @include media(">=phone", "<lgphone") {
+  @include media("<tablet") {
     flex-direction: column;
   }
 
@@ -13,6 +13,20 @@
     @include media(">=phone", "<lgphone") {
       font-size: 11px;
       padding: 5px;
+    }
+    
+    .logo-name {
+      font-family: "GoldenSignature";
+      font-size: 48px;
+      font-weight: normal;
+      font-variant-ligatures: no-common-ligatures;
+      -webkit-font-variant-ligatures: no-common-ligatures;
+      padding: 0 8px;
+      color:  black;
+    
+      &:hover{
+        color: red;
+      }
     }
   }
   .links-wrapper {
@@ -27,7 +41,7 @@
     button {
       text-decoration: none;
       padding: 10px;
-      font-family: "Open Sans";
+      font-family: "Montserrat";
       opacity: 0.6;
       transition: all 0.2s ease-in-out;
       font-size: 14px;
@@ -38,8 +52,8 @@
       &:hover {
         opacity: 1;
       }
-      @include media(">=phone", "<lgphone") {
-        font-size: 11px;
+      @include media("<tablet") {
+        font-size: 10px;
         padding: 5px;
       }
     }

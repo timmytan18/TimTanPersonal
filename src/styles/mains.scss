@@ -15,6 +15,14 @@
 @import "./skills.scss";
 @import "./footer.scss";
 
+@font-face {
+  font-family: 'GoldenSignature';
+  font-style: normal;
+  font-weight: normal;
+  src: local('GoldenSignature'), url('./assets/fonts/GoldenSignature.otf') format('woff');
+  font-display: swap;
+}
+
 * {
   font-family: "Montserrat";
 }
@@ -44,12 +52,9 @@ body {
     font-size: 2.7rem;
     line-height: 20px;
     text-align: center;
-    @include media(">=phone", "<lgphone") {
+    @include media(">=phone", "<tablet") {
       font-size: 2rem;
       line-height: 50px;
-    }
-    @include media(">=lgphone", "<tablet") {
-      line-height: 20px;
     }
     @include media(">=tablet", "<desktop") {
       font-size: 2.7rem;

@@ -16,12 +16,9 @@
     align-items: center;
     width: 25em;
     justify-content: space-between;
-    @include media(">=phone", "<lgphone") {
+    @include media(">=phone", "<tablet") {
       flex-direction: column;
       padding-bottom: 10px;
-    }
-    @include media(">=lgphone", "<tablet") {
-      flex-direction: column;
     }
     @include media(">=tablet", "<desktop") {
       flex-direction: column;

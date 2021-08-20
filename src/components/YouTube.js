@@ -5,7 +5,7 @@ import data from "../yourdata"
 
 const CHANNEL_ID = process.env.GATSBY_YOUTUBE_CHANNEL_ID;
 const API_KEY = process.env.GATSBY_YOUTUBE_API_KEY;
-const videoIds = ['zSEE12SZduw', 'zGruUTOPVck', 'lfwIlKPllvg', '6RWbw_-vNE0'];
+const videoIds = ['TX1VQVH8-1U', 'y-uekyaAWh8', 'zSEE12SZduw', 'zGruUTOPVck', 'lfwIlKPllvg', '6RWbw_-vNE0'];
 
 function numberWithCommas(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
