@@ -56,7 +56,7 @@ export default {
   aboutParaOne:
     "I’m currently a senior at Georgia Tech, majoring in Computer Science. I enjoy designing and building full stack and mobile apps, and I am passionate about using the tools and knowledge I have to create and work on products that will improve the lives of others.",
   aboutParaTwo:
-    "As I have a strong interest in software and tech entrepreneurship, I'm currently trying to learn as much as I can about startups, aka watching a ton of YC videos. I aspire to one day create and grow my own startup in the social good space or one that will allow for a tangible impact on many people.",
+    "As I have a strong interest in software and tech entrepreneurship, I'm currently trying to learn as much as I can about startups, aka watching a ton of YC videos. I aspire to one day create and grow my own startup in the social / creator economy space or one that will allow for a tangible impact on many people.",
   aboutParaThree:
     "Even though I’m quite technical, I also love storytelling and all things visual. I'm definitely still a beginner designer and filmmaker, but I hope to use my skills to tell the stories of my life and others. Be sure to watch out for new videos on my YouTube channel! Thanks for checking out my page :)",
   aboutImage:
