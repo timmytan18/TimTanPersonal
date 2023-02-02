@@ -1,23 +1,23 @@
-import React from "react"
+import React from "react";
 
 // Experience Icons
-import gtIcon from "./images/georgiatech.png"
-import amazonIcon from "./images/amazon.png"
-import amexIcon from "./images/americanexpress.png"
-import thrustIcon from "./images/thrustinteractive.png"
+import gtIcon from "./images/georgiatech.png";
+import amazonIcon from "./images/amazon.png";
+import amexIcon from "./images/americanexpress.png";
+import thrustIcon from "./images/thrustinteractive.png";
 
 // Skills Icons
-import pythonIcon from "./images/python.png"
-import javascriptIcon from "./images/javascript.png"
-import javaIcon from "./images/java.png"
-import cssIcon from "./images/css.png"
-import reactIcon from "./images/react.png"
-import reactNativeIcon from "./images/reactnative.png"
-import awsIcon from "./images/aws.png"
-import androidIcon from "./images/android.png"
-import mandarinIcon from "./images/mandarin.png"
-import sketchIcon from "./images/sketch.png"
-import finalCutIcon from "./images/finalcut.png"
+import pythonIcon from "./images/python.png";
+import javascriptIcon from "./images/javascript.png";
+import javaIcon from "./images/java.png";
+import cssIcon from "./images/css.png";
+import reactIcon from "./images/react.png";
+import reactNativeIcon from "./images/reactnative.png";
+import awsIcon from "./images/aws.png";
+import androidIcon from "./images/android.png";
+import mandarinIcon from "./images/mandarin.png";
+import sketchIcon from "./images/sketch.png";
+import finalCutIcon from "./images/finalcut.png";
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -30,8 +30,6 @@ export default {
     "Developer",
     //Line 2 For Header
     "Creator",
-    //Line 3 For Header
-    "Student",
   ],
   //   Header Paragraph
   headerParagraph:
@@ -42,25 +40,24 @@ export default {
 
   //Social
   socialMedia: {
-    linkedin: 'https://www.linkedin.com/in/timtan1/',
-    instagram: 'https://www.instagram.com/tim0_otan/',
-    github: 'https://github.com/timmytan18',
-    twitter: 'https://www.twitter.com/timmytan18',
-    youtube: 'https://www.youtube.com/timtan1',
-    email: 'timmytan18@gmail.com'
+    linkedin: "https://www.linkedin.com/in/timtan1/",
+    instagram: "https://www.instagram.com/tim0_otan/",
+    github: "https://github.com/timmytan18",
+    twitter: "https://www.twitter.com/timmytan18",
+    youtube: "https://www.youtube.com/timtan1",
+    email: "timmytan18@gmail.com",
   },
 
   // End Header Details -----------------------
 
   // About Secton --------------
   aboutParaOne:
-    "I’m currently a senior at Georgia Tech, majoring in Computer Science. I enjoy designing and building full stack and mobile apps, and I am passionate about using the tools and knowledge I have to create and work on products that will improve the lives of others.",
+    "I’m a Georgia Tech CS new grad. I enjoy designing and building full stack and mobile apps, and I am passionate about using the tools and knowledge I have to create and work on products that will improve the lives of others.",
   aboutParaTwo:
-    "As I have a strong interest in software and tech entrepreneurship, I'm currently trying to learn as much as I can about startups, aka watching a ton of YC videos. I aspire to one day create and grow my own startup in the social / creator economy space or one that will allow for a tangible impact on many people.",
+    "As I have a strong interest in tech entrepreneuship, I aspire to one day create and build my own startup in the consumer social or creator economy space and have a tangible impact on many people.",
   aboutParaThree:
     "Even though I’m quite technical, I also love storytelling and all things visual. I'm definitely still a beginner designer and filmmaker, but I hope to use my skills to tell the stories of my life and others. Be sure to watch out for new videos on my YouTube channel! Thanks for checking out my page :)",
-  aboutImage:
-    require("./images/profilefull.jpg"),
+  aboutImage: require("./images/profilefull.jpg"),
 
   //   End About Section ---------------------
 
@@ -100,7 +97,7 @@ export default {
   ],
 
   // End Work Section -----------------------
-  
+
   //   YouTube Section --------------------------
 
   youtubeHeading: "YouTube",
@@ -123,23 +120,44 @@ export default {
       img: amazonIcon,
       title: "Amazon",
       subtitle: "Software Development Intern | Summer 2021",
-      para: <p>I established the foundation for millions of Fire TV users to block unwanted content in child profiles, creating the UI/UX and implementing the Android front end using Kotlin and Java with internal back end API services.</p>,
+      para: (
+        <p>
+          I established the foundation for millions of Fire TV users to block
+          unwanted content in child profiles, creating the UI/UX and
+          implementing the Android front end using Kotlin and Java with internal
+          back end API services.
+        </p>
+      ),
     },
     {
       id: 3,
       img: amexIcon,
       title: "American Express",
       subtitle: "Software Engineering Intern | Summer 2020",
-      para: <p>I created an AI chat bot for (COVID) crisis relief using Rasa to be integrated in the AMEX mobile app. By analyzing current chat data, my teammate and I automated 63% of crisis relief customer service conversations from June 2020.</p>,
+      para: (
+        <p>
+          I created an AI chat bot for (COVID) crisis relief using Rasa to be
+          integrated in the AMEX mobile app. By analyzing current chat data, my
+          teammate and I automated 63% of crisis relief customer service
+          conversations from June 2020.
+        </p>
+      ),
     },
     {
       id: 4,
       img: thrustIcon,
       title: "Thrust Interactive",
       subtitle: "Mobile Development Intern | Summer 2019",
-      para: <p>I worked on front end development with React Native for multiple client iOS and Android apps including <a href="https://playfanstable.com/" target="_blank">
-        FanStable
-      </a> and a vocabulary learning app for children with ASD.</p>,
+      para: (
+        <p>
+          I worked on front end development with React Native for multiple
+          client iOS and Android apps including{" "}
+          <a href="https://playfanstable.com/" target="_blank">
+            FanStable
+          </a>{" "}
+          and a vocabulary learning app for children with ASD.
+        </p>
+      ),
     },
   ],
 
@@ -148,7 +166,6 @@ export default {
   // Skills Section ---------------
 
   skills: {
-
     languages: [
       {
         id: 1,
@@ -226,4 +243,4 @@ export default {
   contactSubHeading: "I hope to meet and work with you!",
 
   // End Contact Section ---------------
-}
+};
