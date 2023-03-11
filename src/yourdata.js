@@ -2,6 +2,7 @@ import React from "react";
 
 // Experience Icons
 import gtIcon from "./images/georgiatech.png";
+import karatIcon from "./images/karat.png";
 import amazonIcon from "./images/amazon.png";
 import amexIcon from "./images/americanexpress.png";
 import thrustIcon from "./images/thrustinteractive.png";
@@ -76,6 +77,16 @@ export default {
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
+      title: "Rentcha", //Project Title - Add Your Project Title Here
+      para:
+        "Built an apartment rental review platform to help friends launch the MVP of their startup", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: require("./images/rentcha.png"),
+      //Project URL - Add Your Project Url Here
+      url: "https://www.rentcha.com/",
+    },
+    {
+      id: 3, //DO NOT CHANGE THIS (Please)😅
       title: "Intelliflect", //Project Title - Add Your Project Title Here
       para:
         "A home assistant smart mirror prototype that listens for voice commands to display relevant visual data, including local weather information, YouTube videos, and calendar events", // Add Your Service Type Here
@@ -83,16 +94,6 @@ export default {
       imageSrc: require("./images/intelliflect.jpg"),
       //Project URL - Add Your Project Url Here
       url: "https://rb.gy/bdkamq",
-    },
-    {
-      id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Space Traders", //Project Title - Add Your Project Title Here
-      para:
-        "A space travel and exploration strategy web game created as a group project", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc: require("./images/spacetraders.png"),
-      //Project URL - Add Your Project Url Here
-      url: "https://spacetraders2340.herokuapp.com/",
     },
   ],
 
@@ -117,6 +118,21 @@ export default {
     },
     {
       id: 2,
+      img: karatIcon,
+      title: "Karat Financial",
+      subtitle: "Software Engineer | Jul 2022 - Feb 2023",
+      para: (
+        <p>
+          Working in a high-growth startup enabled me to have ownership across
+          the stack and to wear different hats. At Karat, I helped build
+          financial services for thousands of digital creators and influencers
+          by maintaining our user-facing card dashboard and services with React,
+          Postgres, Hasura, Apollo, Lambdas, etc.
+        </p>
+      ),
+    },
+    {
+      id: 3,
       img: amazonIcon,
       title: "Amazon",
       subtitle: "Software Development Intern | Summer 2021",
@@ -130,7 +146,7 @@ export default {
       ),
     },
     {
-      id: 3,
+      id: 4,
       img: amexIcon,
       title: "American Express",
       subtitle: "Software Engineering Intern | Summer 2020",
@@ -144,18 +160,14 @@ export default {
       ),
     },
     {
-      id: 4,
+      id: 5,
       img: thrustIcon,
       title: "Thrust Interactive",
       subtitle: "Mobile Development Intern | Summer 2019",
       para: (
         <p>
           I worked on front end development with React Native for multiple
-          client iOS and Android apps including{" "}
-          <a href="https://playfanstable.com/" target="_blank">
-            FanStable
-          </a>{" "}
-          and a vocabulary learning app for children with ASD.
+          client iOS and Android apps.
         </p>
       ),
     },
@@ -169,13 +181,13 @@ export default {
     languages: [
       {
         id: 1,
-        img: pythonIcon,
-        title: "Python",
+        img: javascriptIcon,
+        title: "TypeScript / JavaScript",
       },
       {
         id: 2,
-        img: javascriptIcon,
-        title: "Javascript",
+        img: pythonIcon,
+        title: "Python",
       },
       {
         id: 3,

@@ -64,7 +64,7 @@
     .languages {
       padding-left: 5px;
       @include media(">=phone", "<lgphone") {
-        padding-left: 23vw;
+        padding-left: 20vw;
       }
       @include media(">=lgphone", "<tablet") {
         padding-left: 30vw;
@@ -73,7 +73,7 @@
     .technologies {
       padding-left: 55px;
       @include media(">=phone", "<lgphone") {
-        padding-left: 23vw;
+        padding-left: 20vw;
       }
       @include media(">=lgphone", "<tablet") {
         padding-left: 30vw;
@@ -82,7 +82,7 @@
     .other {
       padding-left: 15px;
       @include media(">=phone", "<lgphone") {
-        padding-left: 23vw;
+        padding-left: 20vw;
       }
       @include media(">=lgphone", "<tablet") {
         padding-left: 30vw;

@@ -4,7 +4,7 @@
   margin-bottom: 10vh;
   display: flex;
   flex-direction: column;
-	align-items: center;
+  align-items: center;
   h2 {
     font-size: 2rem;
     text-align: center;
@@ -21,16 +21,17 @@
   }
 
   .animoji-container {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: -10px;
     img {
-      width: 150px;
-      height: 150px;
+      width: 200px;
+      height: 200px;
       object-fit: contain;
     }
     .react-player {
-      width: 150px;
-      height: 150px;
+      width: 200px;
+      height: 200px;
     }
   }
 
@@ -74,15 +75,15 @@
   .social-media-div {
     font-size: 2em;
   }
-  
+
   .icon-button {
-		color: white;
+    color: white;
     cursor: pointer;
     display: inline-block;
     font-size: 1.3rem;
     border-radius: 2.57rem;
-		height: 2.57rem;
-		width: 2.57rem;
+    height: 2.57rem;
+    width: 2.57rem;
     line-height: 2.57rem;
     margin: 0 5px;
     position: relative;
@@ -108,56 +109,56 @@
       margin: 0 7px;
       font-size: 1.5rem;
     }
-	}
-	
-	.mail div {
+  }
+
+  .mail div {
     background-color: #f4b400;
-	}
-	.mail :hover  {
-		background-color:#C18100;
-		transition: 0.3s ease-in;
-	}
-	
+  }
+  .mail :hover {
+    background-color: #c18100;
+    transition: 0.3s ease-in;
+  }
+
   .linkedin div {
     background-color: #0e76a8;
-	}
-	.linkedin :hover {
-		background-color:#004375;
-		transition: 0.3s ease-in;
   }
-  
+  .linkedin :hover {
+    background-color: #004375;
+    transition: 0.3s ease-in;
+  }
+
   .github div {
     background-color: #333;
-	}
-	.github :hover {
-		background-color:#010101;
-		transition: 0.3s ease-in;
   }
-  
+  .github :hover {
+    background-color: #010101;
+    transition: 0.3s ease-in;
+  }
+
   .instagram div {
     background-color: #c13584;
-	}
-	.instagram :hover {
-		background-color:#8E0251;
-		transition: 0.3s ease-in;
+  }
+  .instagram :hover {
+    background-color: #8e0251;
+    transition: 0.3s ease-in;
   }
 
   .twitter div {
-    background-color: #1DA1F2;
-	}
-	.twitter :hover {
-		background-color:#006EBF;
-		transition: 0.3s ease-in;
+    background-color: #1da1f2;
+  }
+  .twitter :hover {
+    background-color: #006ebf;
+    transition: 0.3s ease-in;
   }
 
   .youtube div {
-		background-color: #ff0000;
+    background-color: #ff0000;
   }
-	.youtube :hover {
-		background-color:#CC0000;
-		transition: 0.3s ease-in;
+  .youtube :hover {
+    background-color: #cc0000;
+    transition: 0.3s ease-in;
   }
-  
+
   /* Media Query */
   @media (max-width: 768px) {
     .social-media-div {
