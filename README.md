@@ -1,5 +1,5 @@
 # Tim Tan Personal 👨‍💻
-https://www.timtan.io/
+https://www.timtan.me/
 
 Personal porfolio website
 built on top of https://react-portfolio-template.netlify.app/
